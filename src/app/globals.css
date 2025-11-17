@@ -1,0 +1,44 @@
+@import '@vscode/codicons/dist/codicon.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* VS Code-like syntax highlighting */
+.markdown-body {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.markdown-body h1 { font-size: 2em; color: #569cd6; }
+.markdown-body h2 { font-size: 1.5em; color: #4ec9b0; }
+.markdown-body h3 { font-size: 1.25em; color: #9cdcfe; }
+.markdown-body h4 { font-size: 1.1em; color: #c586c0; }
+.markdown-body a { color: #3794ff; }
+.markdown-body ul { list-style-type: disc; }
+.markdown-body code { color: #ce9178; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Disable default outlines; rely on focus-visible ring utilities for keyboard */
+:focus {
+  outline: none;
+}
+
+/* Keyboard-only outlines for content links */
+.markdown-body a:focus-visible {
+  outline: 2px solid #61afef;
+  outline-offset: 2px;
+}
