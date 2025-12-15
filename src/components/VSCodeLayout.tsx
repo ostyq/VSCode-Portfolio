@@ -9,6 +9,7 @@ const sections = [
   { path: '/about', label: 'about.md' },
   { path: '/experience', label: 'experience.md' },
   { path: '/projects', label: 'projects.md' },
+  { path: '/travel', label: 'travel.md' },
   { path: '/contact', label: 'contact.md' },
 ];
 
