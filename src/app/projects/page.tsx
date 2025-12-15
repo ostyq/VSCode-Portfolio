@@ -63,12 +63,12 @@ export default function Projects() {
                 <div className="flex items-center">
                   <Globe size={14} className="mr-2 text-[#cccccc]" />
                   <a
-                    href="https://byveronika.dev"
+                    href="https://cv.byveronika.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#61afef] hover:text-[#7bc5f5] hover:underline flex items-center break-all transition-colors duration-200 group/link focus:outline-none rounded"
                   >
-                    byveronika.dev
+                    cv.byveronika.dev
                     <ExternalLink size={12} className="ml-1 text-[#cccccc] group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-200" />
                   </a>
                 </div>

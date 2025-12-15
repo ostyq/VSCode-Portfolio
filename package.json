@@ -6,14 +6,16 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "audit": "npm audit",
+    "audit:fix": "npm audit fix"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@vscode/codicons": "^0.0.36",
     "lucide-react": "^0.508.0",
-    "next": "^15.5.7",
     "prop-types": "^15.8.1",
+    "next": "15.5.9",
     "react": "^19.1.2",
     "react-dom": "^19.1.2",
     "react-icons": "^5.5.0",
